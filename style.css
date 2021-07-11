@@ -1,0 +1,31 @@
+ /* top players style */
+ main{
+     display: flex;
+
+ }
+ .section-title{
+     color: darkblue;
+     font-size: 24px ;
+
+ }
+.container{
+    background-color: brown;
+    width: 880px;
+    padding: 30px;
+}
+ .players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    
+}
+.player-name{
+    margin-left: 16px;
+}
