@@ -1,25 +1,32 @@
  /* top players style */
  main{
      display: flex;
+     justify-content: center;
 
  }
  .section-title{
      color: darkblue;
      font-size: 24px ;
 
+
  }
 .container{
-    background-color: brown;
+    background-color:darkgreen;
     width: 880px;
     padding: 30px;
+    
 }
  .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:30px;
 }
 .player{
     display: flex;
     align-items: center;
+}
+hr{
+    border:  1px solid khaki ;
 }
 .player img{
     width: 56px;
@@ -28,4 +35,34 @@
 }
 .player-name{
     margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+/* top blog style */
+.blog{
+    display: flex;
+}
+.blog img{
+    width: 177px;
+    height: 177px;
+}
+.blog-info{
+ margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: lightseagreen;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size:16px;
+    color: magenta;
 }
